@@ -1,65 +1,26 @@
-# zzyx README
+# NPM Package Installer for VS Code
 
-This is the README for your extension "zzyx". After writing up a brief description, we recommend including the following sections.
+This Visual Studio Code extension allows developers to quickly search for and install NPM packages without leaving the editor. It leverages a quick pick UI in VS Code to display search results that you can select from to install directly into your project.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Package Search**: Search NPM packages directly in VS Code.
+- **Quick Install**: Install packages with just a couple of clicks.
+- **Custom Installation Support**: Special handling for popular frameworks like Next.js, Vite React, and React Native.
+- **Integrated Terminal Use**: Runs all commands in the integrated terminal, allowing you to see progress and any errors directly.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+To install this extension, you will need to package it into a `.vsix` file and then install it into VS Code. Follow these steps:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Clone this repository to your local machine using Git:
+   ```bash
+   git clone https://github.com/prataptron69/Extensions
 
-## Requirements
+### Additional Notes
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Replace Placeholder URL**: Make sure to replace `https://github.com/prataptron69/Extensions` with the actual URL of your GitHub repository where this extension's code will be hosted.
+- **vsce Installation**: If you have not installed `vsce` yet, you can do so by running `npm install -g vsce` in your command line.
+- **Packaging and Testing**: Before you distribute the extension, you may want to test it locally by installing the `.vsix` file on your own VS Code to ensure everything works as expected.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+With this `README.md` file, your GitHub repository will have a professional look that provides potential users and contributors with all the information they need to effectively use and collaborate on your VS Code extension.
